@@ -3,14 +3,14 @@
 #### Description: An enhanced version of tic tac toe played in a 6x6 grid inside the console
 ### How to Play:
 ## Rules
-<p>* Offense makes the first move
+* Offense makes the first move
 * The first move may be placed anywhere on the board
 * Offense may take 2 turns at the start, Defense only takes 1
 * Defense may put marks anywhere, Offense must place it in adjacent squares next to other offensive marked squares
 * If the Offense is blocked from a square, Defense automatically wins the square
 * Players may score diagonally, horizontally, vertically, four-corners, and illuminati
 * Both Offense and Defense can score points
-</p>
+
 
 ## app.py
 
