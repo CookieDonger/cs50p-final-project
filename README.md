@@ -92,10 +92,10 @@
 ### end_game()
 
 <p>Runs the check_score() function for each player and then print_board() to get the final state of the game. Once it has done this it will call sys.exit() to end the program</p>
-
 ## test_project.py
 
-<p>Runs tests to ensure that the Player class is working, then the create_board(), get_name(), check_possible(), check_legal(), test_play_move(), test_check_score() functions as well</p>
+<p>Runs tests to ensure that the Player class is working, then the create_board(), get_name(), check_possible(), check_legal(), test_play_move(), test_check_score() functions as well
+</p>
 * The print_board() function is not tested because it has no return value and simply prints to the console, in which it's much easier and efficient to just look at the console instead of trying to copy and paste the ASCII Art into code
 * It also does not do each individual score check because I gave the test_check_score() a case where each scoring method is used, with all of them except the four corners being used at least twice
 * end_game() is not tested because it just calls the other functions and ends the program, which is easy to just see
